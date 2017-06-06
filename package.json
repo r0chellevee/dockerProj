@@ -5,9 +5,9 @@
   "author": "First Last <first.last@example.com>",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "live-server"
   },
   "dependencies": {
-    "express": "^4.13.3"
+    "live-server": "1.2.0"
   }
 }
