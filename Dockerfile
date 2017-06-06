@@ -11,5 +11,6 @@ RUN npm i
 # Bundle app source
 COPY . /usr/src/app/
 
+# Choose port and run command
 EXPOSE 8080
 CMD ["npm", "start"]
